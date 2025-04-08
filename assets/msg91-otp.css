@@ -1,0 +1,76 @@
+.msg91-otp-section {
+    border-top: 1px solid #e0e0e0;
+    padding-top: 20px;
+    margin-top: 20px;
+}
+
+.msg91-otp-section label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: 600;
+}
+
+#msg91_phone_number,
+#msg91_otp_code {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+#msg91_send_otp,
+#msg91_verify_otp {
+    margin-bottom: 15px;
+    background-color: #96588a;
+    color: white;
+    border: none;
+    padding: 12px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#msg91_send_otp:hover,
+#msg91_verify_otp:hover {
+    background-color: #7d4a72;
+}
+
+#msg91_send_otp:disabled,
+#msg91_verify_otp:disabled {
+    background-color: #cccccc;
+    cursor: not-allowed;
+}
+
+#msg91_otp_message {
+    margin: 15px 0;
+    padding: 10px 15px;
+    border-radius: 4px;
+}
+
+#msg91_otp_message.woocommerce-error {
+    background-color: #f8d7da;
+    border-color: #f5c6cb;
+    color: #721c24;
+}
+
+#msg91_otp_message.woocommerce-success {
+    background-color: #d4edda;
+    border-color: #c3e6cb;
+    color: #155724;
+}
+
+
+.phone-input-wrapper {
+    display: flex;
+    align-items: center;
+}
+.phone-input-wrapper span {
+    padding: 10px;
+    background: #f5f5f5;
+    border: 1px solid #ddd;
+    border-right: none;
+    border-radius: 4px 0 0 4px;
+}
+.phone-input-wrapper input {
+    border-radius: 0 4px 4px 0 !important;
+}
